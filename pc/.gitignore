@@ -1,0 +1,48 @@
+# User-specific stuff:
+.idea
+*.iml
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# IntelliJ
+**/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+*.iml
+# modules.xml
+.idea/misc.xml
+.idea/vcs.xml
+# *.ipr
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Maven ###
+target/
+
+### Gradle ###
+.gradle/**
+**/build/
+
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# End of https://www.gitignore.io/api/java,maven,jboss,gradle,intellij
+.idea
