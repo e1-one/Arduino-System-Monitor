@@ -7,7 +7,8 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        ArduinoSerialMonitor arduinoSerialMonitor = new ArduinoSerialMonitor("COM5", PORT_SPEED.BAUD_57600);
+        String portName = args[0];
+        ArduinoSerialMonitor arduinoSerialMonitor = new ArduinoSerialMonitor(portName, PORT_SPEED.BAUD_57600);
 
         SystemResourcesMonitor systemResourcesMonitor
                 = new SystemResourcesMonitor(m -> {
