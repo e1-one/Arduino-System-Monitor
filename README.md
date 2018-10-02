@@ -1,6 +1,6 @@
 # Arduino-System-Monitor
 This is CPU + RAM usage monitor using an Arduino and a Java program. Java app was tested on Windows.
-<br /> Java app is using ![rxtx](http://rxtx.qbang.org/wiki/index.php/Main_Page) and ![javasysmon](https://github.com/jezhumble/javasysmon) libs.
+<br /> Java app is using [rxtx](http://rxtx.qbang.org/wiki/index.php/Main_Page) and [javasysmon](https://github.com/jezhumble/javasysmon) libs.
 <br />![photo](https://raw.githubusercontent.com/IvanYarovyi/Arduino-System-Monitor/master/photo.png)
 #### Software you need:
 | Software | LINK |
